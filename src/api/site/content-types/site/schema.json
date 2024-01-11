@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "sites",
+  "info": {
+    "singularName": "site",
+    "pluralName": "sites",
+    "displayName": "site",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainTitle": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Main": {
+      "type": "blocks"
+    },
+    "ContactTitle": {
+      "type": "string"
+    }
+  }
+}
